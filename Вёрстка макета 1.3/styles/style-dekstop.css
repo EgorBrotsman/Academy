@@ -1,0 +1,175 @@
+body{
+	background-color: #F8F8F8;
+}
+/*--- BLOCKS ---*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FF3E79;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.offer {
+	position: relative;
+}
+
+.offer::before{
+	position: absolute;
+	content: " ";
+	width: 15px;
+	height: 40px;
+	background-color: #41F6D7;
+	left: -10px;
+	border-radius: 25%;
+}
+
+.offer__wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+/*--- HEADER ---*/
+.header{
+	background-color: #fff;
+	padding: 18.59px 0;
+}
+
+.header__container{
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	position: relative;
+}
+
+.logo::before{
+	content: "";
+	position: absolute;
+	bottom: 11px;
+	left: -20.73px;
+	width: 2px;
+	height: 32px;
+	background-color: #EAEAEA;
+	border-radius: 25%;
+}
+
+.header__burger-menu{
+	order: -1;
+	margin-right: 42.73px;
+}
+
+.header__burger-menu:focus{
+	border-left: 2px solid black;
+}
+
+.menu{
+	margin-left: auto;
+}
+
+.menu__item{
+	position: relative;
+	margin-right: 16px;
+}
+
+.menu__item:last-child{
+	margin-right: 0;
+}
+
+.menu__list--contacts{
+	position: relative;
+	display: flex;
+}
+
+.menu__link--order{
+	display: none;
+}
+
+/*---MAIN---*/
+.main{
+	margin-top: 24px;
+	margin-bottom: 35px;
+}
+
+.order__list{
+	display: flex;
+}
+
+.order__item{
+	margin-right: 16px;
+}
+.order__item:last-child{
+	margin-right: 0;
+}
+
+.order__link{
+	color: #000;
+	font-family: 'TTLakes-Medium', Arial, Helvetica, sans-serif;
+	display: flex;
+	align-items: center;
+}
+
+.order__link span{
+	margin-left: 8px;
+}
+
+.section-menu{
+	margin: 24px 0;
+}
+
+.slide-menu{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.slide-menu__button{
+	color: #7E7E82;
+}
+
+.slide-menu__button:hover{
+	outline: 3px solid #B8FFEC;
+	background-color: #fff;
+}
+
+.slide-menu__button:focus{
+	outline: 3px solid #B8FFEC;
+	background-color: #fff;
+}
+
+.button{
+	font-size: 16px;
+	cursor: pointer;
+	border: none;
+	background: none;
+	padding: 8px 10px;
+}
+
+.content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.content__button{
+	font-family: 'TTLakes-Medium', Arial, Helvetica, sans-serif;
+}
+
+.content__button-img{
+	margin-right: 8px;
+}
+
+.content__img{
+	margin-left: 25px;
+	max-width: 531px;
+	max-height: 307px;
+}
